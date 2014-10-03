@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="scripts/nodos.js"></script>
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="padre">
+        <ul id="hijo1">
+
+        </ul>
+        <div id="hijo2">
+            soy el hijito<span id="nieto1"> de papá</span>
+        </div>
+
+    </div>
+    <a href="#" onclick="addLista()">Añade algo</a>    <!--creo un link para ejecutar la función del JS-->   
+    <a href="#" onclick="borrarNodo('nieto1')">Bórrame algo</a>          <!--va con comillas simples no sé por qué-->
+    <a href="#" onclick="cambiarColor('nieto1')">Cambiar Color</a>
+    <a href="#" onclick="borrarTodos()">Borrar Todos</a>
+    <a href="#" onclick="primerHijo('padre')">Primer hijo</a>
+</body>
+</html>
+
+
